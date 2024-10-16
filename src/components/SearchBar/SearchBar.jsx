@@ -1,5 +1,5 @@
-import React from 'react'
-import { HiLocationMarker } from 'react-icons/hi'
+import React from 'react';
+import { HiLocationMarker } from 'react-icons/hi';
 
 const SearchBar = () => {
   return (
@@ -8,7 +8,7 @@ const SearchBar = () => {
             <input type="text" />
             <button className="button">Search</button>
           </div>
-  )
-}
+  );
+};
 
-export default SearchBar
+export default SearchBar;
