@@ -35,9 +35,14 @@ const Property = () => {
   return (
     <div className="wrapper">
       <div className= "flexColStart paddings innerWidth property-container">
+
+        {/* like button */}
         <div className="like">
           <AiFillHeart size={24} color ="white"/>
         </div>
+
+        {/* image */}
+        <img src={data?.image} alt="home image"/>
       </div>
     </div>
   );
