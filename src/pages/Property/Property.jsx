@@ -85,6 +85,14 @@ console.log(data);
                 <span>{data?.facilities.bedrooms} rooms</span>
               </div>
             </div>
+
+
+
+            {/* description */}
+
+            <span className="secondaryText" style={{textAlign: "justify"}}>
+              {data?.description}
+            </span>
           </div>
 
 
