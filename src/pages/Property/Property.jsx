@@ -7,7 +7,7 @@ import { AiFillHeart, AiTwotoneCar } from "react-icons/ai";
 import "./Property.css";
 
 import {FaShower} from "react-icons/fa";
-import {MdMeetingRoom} from "react-icons/md";
+import {MdLocationPin, MdMeetingRoom} from "react-icons/md";
 
 
 const Property = () => {
@@ -93,6 +93,25 @@ console.log(data);
             <span className="secondaryText" style={{textAlign: "justify"}}>
               {data?.description}
             </span>
+
+
+            {/*address*/}
+
+            <div className="flexStart">
+              <MdLocationPin size={25}/>
+              <span className="secondaryText">
+                {
+                  data?.address
+                }
+                {
+                  data?.city
+                }
+                {
+                  data?.country
+                }
+
+              </span>
+            </div>
           </div>
 
 
