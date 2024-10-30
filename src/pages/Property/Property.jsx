@@ -112,6 +112,14 @@ console.log(data);
 
               </span>
             </div>
+
+
+
+            {/* booking button*/}
+            <button className="button">
+              Book your visit
+            </button>
+
           </div>
 
 
