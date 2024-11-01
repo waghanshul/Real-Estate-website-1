@@ -12,7 +12,6 @@ const Map = ({address, city, country}) => {
         width: "100%",
         marginTop: "20px",
         zIndex: 0,
-        background: 'red'
     }} 
     >
         <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'/>
